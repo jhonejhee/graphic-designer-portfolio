@@ -2,7 +2,7 @@
 function Home() {
   return (
     <div
-        className="flex items-center justify-between h-full w-full"
+        className="flex items-center justify-between h-full w-full p-8"
     >
         <div className="flex flex-col items-center justify-center h-full w-full text-center">
           <div className="flex flex-col items-center justify-end h-full w-full text-center">
