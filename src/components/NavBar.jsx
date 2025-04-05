@@ -1,8 +1,8 @@
 
 function NavBar() {
   return (
-    <nav class="bg-transparent border-gray-200 h-16">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-6 py-12">
+    <nav class="bg-transparent border-gray-200 h-fit">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-6 py-10">
             <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <span class="self-center text-lg font-normal whitespace-nowrap text-white">🟢 available for <span  className="text-accent">work</span> </span>
             </a>
@@ -15,19 +15,19 @@ function NavBar() {
             <div class="hidden w-full md:block md:w-auto" id="navbar-default">
                 <ul class="font-medium text-xl flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 ">
                     <li>
-                        <a href="#" class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:p-0 underline text-lg font-normal" aria-current="page">FACEBOOK</a>
+                        <a href="#" class="relative text-lg font-normal text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-300 before:absolute before:bg-accent before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-300 after:absolute after:bg-accent after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]" aria-current="page">FACEBOOK</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:p-0 underline text-lg font-normal" aria-current="page">INSTAGRAM</a>
+                        <a href="#" class="relative text-lg font-normal text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-300 before:absolute before:bg-accent before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-300 after:absolute after:bg-accent after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]" aria-current="page">INSTAGRAM</a>
                     </li>
                     <li>
-                        <a href="#" class="block py-2 px-3 text-white rounded-sm md:bg-transparent md:p-0 underline text-lg font-normal" aria-current="page">LINKEDIN</a>
+                        <a href="#" class="relative text-lg font-normal text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-300 before:absolute before:bg-accent before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-300 after:absolute after:bg-accent after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]" aria-current="page">LINKEDIN</a>
                     </li>
                 </ul>
             </div>
             <div class="hidden w-full lg:block md:w-auto">
                 <a href="mailto:jiannina.ayon@gmail.com" class="flex items-center space-x-3 rtl:space-x-reverse">
-                    <span class="self-center text-lg font-normal whitespace-nowrap text-white font-normal">JIANNINA.AYON@GMAIL.COM</span>
+                    <span class="self-center text-lg font-normal whitespace-nowrap text-white font-normal hover:text-accent transition-all ease-in-out duration-300">JIANNINA.AYON@GMAIL.COM</span>
                 </a>
             </div>
         </div>
