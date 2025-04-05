@@ -10,6 +10,7 @@ module.exports = {
       },
       colors: {
         accent: '#fe6100',
+        beige: '#ffe6c8',
       },
     },
   },
