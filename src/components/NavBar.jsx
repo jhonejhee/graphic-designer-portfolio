@@ -1,10 +1,15 @@
+import { Circle } from "lucide-react";
 
 function NavBar() {
   return (
     <nav class="bg-transparent border-gray-200 h-fit">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-6 py-10">
             <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-                <span class="self-center text-lg font-normal whitespace-nowrap text-white">🟢 available for <span  className="text-accent">work</span> </span>
+                <span class="self-center text-lg font-normal whitespace-nowrap text-white flex items-center gap-2">
+                    <Circle className="text-green-400 w-4 h-4 p-0" fill="#66bb6a" strokeWidth={0}/>
+                    available for
+                    <span  className="text-accent">work</span>
+                    </span>
             </a>
             <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-default" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
