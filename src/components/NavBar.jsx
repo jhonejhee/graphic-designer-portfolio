@@ -2,7 +2,7 @@
 function NavBar() {
   return (
     <nav class="bg-transparent border-gray-200 h-16">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 py-12">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-6 py-12">
             <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <span class="self-center text-lg font-normal whitespace-nowrap text-white">🟢 available for <span  className="text-accent">work</span> </span>
             </a>
