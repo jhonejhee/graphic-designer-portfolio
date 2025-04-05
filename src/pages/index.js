@@ -5,7 +5,13 @@ function Portfolio() {
   return (
     <div
         className="h-screen w-full overflow-hidden font-poppins select-none"
-        style={{backgroundImage: "url('/images/background-landscape.png')", backgroundSize: 'cover'}}
+        style={{
+          backgroundImage: "url('/images/background-landscape.png')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          backgroundAttachment: 'fixed',
+        }}
     >
         <NavBar/>
         
