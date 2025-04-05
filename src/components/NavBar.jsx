@@ -4,7 +4,7 @@ function NavBar() {
   return (
     <nav class="bg-transparent border-gray-200 h-fit w-full">
         <div class="w-full flex flex-wrap items-center justify-between mx-auto px-6 py-10">
-            <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+            <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse normal-case">
                 <span class="self-center text-lg font-normal whitespace-nowrap text-white flex items-center gap-2">
                     <Circle className="text-green-400 w-4 h-4 p-0" fill="#66bb6a" strokeWidth={0}/>
                     available for
