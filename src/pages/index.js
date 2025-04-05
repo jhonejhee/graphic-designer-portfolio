@@ -13,7 +13,7 @@ const sections = [
 function Portfolio() {
   return (
     <div
-        className="h-fit w-full overflow-auto font-poppins select-none flex flex-col items-center justify-center"
+        className="h-fit w-full overflow-auto font-poppins select-none flex flex-col items-center justify-center uppercase"
         style={{
           backgroundImage: "url('/images/background-landscape.png')",
           backgroundSize: 'cover',
